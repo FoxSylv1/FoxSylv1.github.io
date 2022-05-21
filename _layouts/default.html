@@ -4,6 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="FoxSylv">
+        <meta name="description" content="{% if page.description %}{{ page.description }}
+                                          {% else %}{{ site.description }}{% endif %}">
+        <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}
+                                       {% else %}{{ site.keywords }}{% endif %}">
 
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
         <title>{% if page.title %}{{ page.title }}

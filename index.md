@@ -1,5 +1,7 @@
 ---
 title: Welcome to my Website!
+description: FoxSylv's Website
+keywords: [foxsylv]
 ---
 
 <h1>
