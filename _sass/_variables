@@ -1,0 +1,4 @@
+@charset "utf-8";
+
+$background-color: rgb(20, 10, 5);
+$text-color: #ffd995;
