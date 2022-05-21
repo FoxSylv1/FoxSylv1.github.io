@@ -1,6 +1,15 @@
 title: FoxSylv's Website!
-description: FoxSylv's Website!
+description:
+    Hello! Welcome to my website! ^w^
+    Here you can find all the stuff I've been working on.
+    Feel free to check it out! You never know what you may find :3
 keywords: [foxsylv]
+
+baseurl: "/"
+url: "https://foxsylv1.github.io"
+
+email: atheriault@bowdoin.edu
+github_username: foxsylv1
 
 defaults:
     -
