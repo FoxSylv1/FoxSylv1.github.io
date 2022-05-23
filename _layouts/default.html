@@ -9,7 +9,7 @@
         <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}
                                        {% else %}{{ site.keywords }}{% endif %}">
 
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="{{ "/assets/favicon.ico" | relative_url}}">
         <title>{% if page.title %}{{ page.title }}
                {% else %}{{ site.title }}{% endif %}</title>
 
