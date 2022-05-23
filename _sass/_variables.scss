@@ -1,4 +1,16 @@
 @charset "utf-8";
 
-$background-color: rgb(20, 10, 5);
-$text-color: #ffd995;
+$black: rgb(20, 10, 5);
+$beige: rgb(255, 220, 150);
+
+$xlight-blue: rgb(0, 128, 255);
+$light-blue: rgb(50, 150, 255);
+$blue: rgb(100, 180, 230);
+$dark-blue: rgb(0, 50, 100);
+
+$orange: rgb(255, 150, 50);
+$orange-border: rgb(100, 70, 0);
+
+
+$background-color: $black;
+$text-color: $beige;
