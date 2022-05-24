@@ -3,8 +3,6 @@
 
 @import "_variables";
 
-$header-height: 50px;
-
 .header-entry {
     & span {
         vertical-align: middle;
@@ -64,7 +62,7 @@ $header-height: 50px;
 
     padding-left: 7%;
     border: 1px solid $dark-blue;
-    background-color: $blue;
+    background-color: $header-footer-background-color;
 
     & .headerName {
         color: $light-orange;

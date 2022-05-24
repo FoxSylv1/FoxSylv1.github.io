@@ -15,13 +15,19 @@
 
         <link rel="stylesheet" href="{{ "css/header.css" | relative_url }}">
         <link rel="stylesheet" href="{{ "css/main.css" | relative_url }}">
+        <link rel="stylesheet" href="{{ "css/footer.css" | relative_url }}">
     </head>
     <body>
-        <header>
-            {% include header.html %}
-        </header>
-        <main>
-            {{ content }}
-        </main>
+        <div class="footer-helper">
+            <header>
+                {% include header.html %}
+            </header>
+            <main>
+                {{ content }}
+            </main>
+        </div>
+        <footer>
+            {% include footer.html %}
+        </footer>
     </body>
 </html>
