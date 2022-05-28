@@ -13,7 +13,7 @@
     overflow: hidden;
     font-size: 20px;
 
-    width: 9%;
+    width: 9vw;
     height: $header-height;
     line-height: $header-height;
     display: inline-block;
@@ -62,7 +62,7 @@ header {
 }
 
 header nav {
-    padding-left: 7%;
+    padding-left: 15vw;
     border: 1px solid $dark-blue;
     background-color: $header-footer-background-color;
 }
