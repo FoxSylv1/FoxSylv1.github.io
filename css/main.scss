@@ -16,6 +16,27 @@ body {
 }
 
 main {
-    width: 60vw;
+    width: $used-width;
     margin: auto;
+}
+
+
+h1 {
+    display: inline;
+
+    color: $orange;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+.box {
+    margin: 10px auto;
+    border: 3px $dark-orange;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+
+    text-align: center;
 }

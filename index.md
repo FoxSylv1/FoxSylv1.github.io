@@ -5,6 +5,13 @@ keywords: [foxsylv]
 css: index.css
 ---
 
+<div class="title">
+<div class="welcome">
+    <h1>
+        Welcome to my website!
+    </h1>
+</div>
+
 <div class="social-icons">
     <a title="Youtube" href="https://www.youtube.com/channel/UCj7lR9rm06lCxE4kxkJeECA" target="_blank" rel="noopener noreferrer">
         <img class="social-icon" src="{{ "assets/youtube-icon.svg" | relative_url }}">
@@ -16,11 +23,14 @@ css: index.css
         <img class="social-icon" src="{{ "assets/github-icon.svg" | relative_url }}">
     </a>
 </div>
+</div>
 
-<h1>
-    Welcome to my website!
-</h1>
 
+<div class="box">
+    <p>
+        Box Test uwu!
+    </p>
+</div>
 <p>
     I hope you enjoy your stay! ^w^
 </p>

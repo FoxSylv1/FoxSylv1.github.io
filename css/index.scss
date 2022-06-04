@@ -3,8 +3,27 @@
 
 @import "_variables";
 
+$social-icon-size: 60px;
+$social-icon-padding: 10px;
+
+
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    width: $used-width;
+    justify-content: center;
+}
+
+.welcome {
+    padding-bottom: $social-icon-padding;
+    width: calc(#{$used-width} - 3 * #{$social-icon-size} - 8 * #{$social-icon-padding});
+    min-width: 400px;
+    text-align: center;
+}
+
 .social-icons {
-    float: right;
+    height: calc(#{$social-icon-size} + 2 * #{$social-icon-padding});
     background-color: $beige;
 
     //Prevents small bars near the social icons
@@ -25,9 +44,11 @@
             text-decoration: none;
         }
     }
+
+    clear: both;
 }
 
 .social-icon {
-    padding: 10px;
-    width: 60px;    
+    padding: $social-icon-padding;
+    width: $social-icon-size; 
 }
