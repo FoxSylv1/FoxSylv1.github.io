@@ -2,6 +2,7 @@
 ---
 
 @import "_variables";
+@import "_header-footer";
 
 .footer-helper {
     min-height: calc(100vh - #{$footer-height});
@@ -13,4 +14,16 @@ footer {
     bottom: $footer-height;
 
     background-color: $header-footer-background-color;
+}
+
+
+
+.footer-data {
+    @include header-footer-data;
+
+    width: $used-width;
+    margin: auto;
+    padding-top: 10px;
+
+    font-size: 25px;
 }
