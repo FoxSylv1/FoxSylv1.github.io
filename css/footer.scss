@@ -18,11 +18,13 @@ footer {
 
 
 .footer-data {
-    width: $used-width;
-    margin: auto;
-    padding-top: 10px;
+    padding-left: 14vw;
+    width: 86vw;
 
-    font-size: 25px;
+    margin: auto;
+    padding-top: calc(#{$footer-height} / 4);
+
+    font-size: 17px;
     color: $black;
 
     & a {
@@ -47,4 +49,8 @@ footer {
             color: $black;
         }
     }
+}
+
+.footer-contact-icon {
+    width: 25px;
 }
