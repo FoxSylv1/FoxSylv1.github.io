@@ -2,10 +2,40 @@
 ---
 
 @import "_variables";
-@import "_header-footer";
 
+
+$name-shadow-thickness: 0.03em;
 .header-name {
-    @include header-footer-data;
+    color: $light-orange;
+    font-weight: bold;
+    text-shadow:
+        -$name-shadow-thickness 0 1.2px #000,
+        $name-shadow-thickness 0 1.2px #000,
+        0 -$name-shadow-thickness 1.2px #000,
+        0 $name-shadow-thickness 1.2px #000;
+
+    & a {
+        &:link {
+            text-decoration: none;
+            color: $light-orange;
+        }
+        &:visited {
+            text-decoration: none;
+            color: $light-orange;
+        }
+        &:hover {
+            text-decoration: underline;
+            color: $orange;
+        }
+        &:active {
+            text-decoration: underline;
+            color: $orange;
+        }
+        &:focus {
+            text-decoration: underline;
+            color: $orange;
+        }
+    }
 }
 
 .header-entry {
