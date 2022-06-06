@@ -6,6 +6,10 @@
 
 $name-shadow-thickness: 0.03em;
 .header-name {
+    float: left;
+    margin-right: 1em;
+    margin-top: 3px;
+
     color: $light-orange;
     font-weight: bold;
     text-shadow:
