@@ -1,0 +1,42 @@
+---
+---
+
+@import "_variables";
+
+.title {
+    width: $used-width;
+    text-align: center;
+}
+
+.contact-icon {
+    width: 50px;
+}
+
+.contact-data {
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    & a {
+        &:link {
+            color: $beige;
+            text-decoration: underline;
+        }
+        &:visited {
+            color: $beige;
+            text-decoration: underline;
+        }
+        &:hover {
+            color: $dark-beige;
+            text-decoration: underline;
+        }
+        &:active {
+            color: $dark-beige;
+            text-decoration: underline;
+        }
+        &:focus {
+            color: $dark-beige;
+            text-decoration: underline;
+        }
+    }
+}

@@ -44,3 +44,8 @@ p {
 
     text-align: center;
 }
+
+/* Converts black images to beige */
+.to-beige {
+    filter: invert(100%) brightness(70%) sepia(100%);
+}
