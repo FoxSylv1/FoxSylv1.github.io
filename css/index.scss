@@ -24,7 +24,6 @@ $social-icon-padding: 10px;
 
 .social-icons {
     height: calc(#{$social-icon-size} + 2 * #{$social-icon-padding});
-    background-color: $beige;
 
     //Prevents small bars near the social icons
     & a {
@@ -44,11 +43,12 @@ $social-icon-padding: 10px;
             text-decoration: none;
         }
     }
-
-    clear: both;
 }
 
 .social-icon {
     padding: $social-icon-padding;
     width: $social-icon-size; 
+
+    /* Convert from black to beige */
+    filter: invert(100%) brightness(70%) sepia(100%);
 }

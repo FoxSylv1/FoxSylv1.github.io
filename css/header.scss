@@ -99,6 +99,7 @@ header {
     top: 0;
     width: 100vw;
     margin-bottom: 20px;
+    z-index: 100;
 
     background-color: $header-footer-background-color;
 }
