@@ -2,13 +2,22 @@
 title: Projects I've Worked On!
 description: A directory of projects that I've worked on.
 keywords: [foxsylv, projects]
+css: projects.css
 permalink: /projects/
 ---
 
-<h1>
-    Here's a list of projects I've worked on:
-</h1>
+<div class="title">
+    <h1>
+        Projects I've Worked On
+    </h1>
+</div>
 
-<p>
-    (Shhhhh there's nothing here yet don't tell anyone.)
-</p>
+<div class="project-list">
+    <div class="project box">
+        <p>
+            There's nothing here right now...
+            <br>
+            Try coming back later! ^w^
+        </p>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+---
+---
+
+@import "_variables";
+
+.title {
+    width: $used-width;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-bottom: 30px;
+}
+
+.project {
+    width: calc(#{$used-width} / 4);
+    min-width: 150px;
+    height: 200px;
+
+    margin: 10px;
+}
