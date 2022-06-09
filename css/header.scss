@@ -105,6 +105,6 @@ header {
 }
 
 header nav {
-    padding-left: 15vw;
+    padding-left: $header-footer-left-offset;
     border: 1px solid $dark-blue;
 }
