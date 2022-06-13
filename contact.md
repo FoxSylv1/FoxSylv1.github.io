@@ -6,7 +6,7 @@ css: contact.css
 permalink: /contact/
 ---
 
-<div class="title">
+<div class="full-width centered-text">
     <h1>
         Contact Me!
     </h1>

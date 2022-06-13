@@ -5,7 +5,7 @@ keywords: [foxsylv]
 css: index.css
 ---
 
-<div class="title">
+<div class="flex full-width">
     <div class="welcome">
         <h1>
             Welcome to my website!
@@ -26,17 +26,3 @@ css: index.css
 </div>
 
 
-<div class="box">
-    <p>
-        Box Test uwu!
-    </p>
-</div>
-<p>
-    I hope you enjoy your stay! ^w^
-</p>
-
-<div style="height: 200vh;">
-    <p>
-        Scroll Time!
-    </p>
-</div>

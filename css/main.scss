@@ -45,6 +45,21 @@ p {
     text-align: center;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.full-width {
+    width: $used-width;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+
 /* Converts black images to beige */
 .to-beige {
     filter: invert(100%) brightness(70%) sepia(100%);

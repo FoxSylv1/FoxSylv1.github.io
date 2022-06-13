@@ -6,13 +6,13 @@ css: projects.css
 permalink: /projects/
 ---
 
-<div class="title">
+<div class="full-width centered-text">
     <h1>
         Projects I've Worked On
     </h1>
 </div>
 
-<div class="project-list">
+<div class="flex project-list">
     <div class="project box">
         <p>
             There's nothing here right now...
