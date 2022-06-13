@@ -5,6 +5,16 @@
 
 @import "_variables";
 
+@font-face {
+    font-family: "DejaVu Serif";
+    src: url("{{ "assets/fonts/DejaVuSerif.ttf" | relative_url }}");
+}
+@font-face {
+    font-family: "DejaVu Serif Bold";
+    src: url("{{ "assets/fonts/DejaVuSerif-Bold.ttf" | relative_url }}");
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +23,8 @@
 body {
     background-color: $background-color;
     color: $text-color;
+
+    font-family: "Lato", "Verdana", sans-serif;
 }
 
 main {
@@ -25,8 +37,24 @@ h1 {
     display: inline;
 
     color: $orange;
+    font-family: "DejaVu Serif Bold", serif;
     font-size: 50px;
     font-weight: bold;
+}
+
+h2 {
+    display: inline;
+
+    color: $orange;
+    font-family: "DejaVu Serif Bold", serif;
+    font-size: 40px;
+}
+
+h6 {
+    display: inline;
+    font-family: "DejaVu Serif", serif;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 p {

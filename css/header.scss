@@ -10,13 +10,11 @@ $name-shadow-thickness: 0.03em;
     margin-right: 1em;
     margin-top: 3px;
 
-    color: $light-orange;
-    font-weight: bold;
     text-shadow:
-        -$name-shadow-thickness 0 1.2px #000,
-        $name-shadow-thickness 0 1.2px #000,
-        0 -$name-shadow-thickness 1.2px #000,
-        0 $name-shadow-thickness 1.2px #000;
+        -$name-shadow-thickness 0 1.8px #000,
+        $name-shadow-thickness 0 1.8px #000,
+        0 -$name-shadow-thickness 1.8px #000,
+        0 $name-shadow-thickness 1.8px #000;
 
     & a {
         &:link {

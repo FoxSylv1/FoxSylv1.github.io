@@ -14,9 +14,9 @@ permalink: /contact/
 
 <div class="contact-data box">
     <img class="contact-icon to-beige" src="{{ "assets/github-icon.svg" | relative_url }}" title="Github" alt="Github Icon">
-    <h1>
+    <h2>
         Github
-    </h1>
+    </h2>
     <p>
         <a href="https://github.com/FoxSylv1" target="_blank" rel="noopener noreferrer">
             FoxSylv1
@@ -30,9 +30,9 @@ permalink: /contact/
 
 <div class="contact-data box">
     <img class="contact-icon to-beige" src="{{ "assets/youtube-icon.svg" | relative_url }}" title="Youtube" alt="Youtube Icon">
-    <h1>
+    <h2>
         Youtube
-    </h1>
+    </h2>
     <p>
         <a href="https://www.youtube.com/channel/UCj7lR9rm06lCxE4kxkJeECA" target="_blank" rel="noopener noreferrer">
             FoxSylv
@@ -47,9 +47,9 @@ permalink: /contact/
 
 <div class="contact-data box">
     <img class="contact-icon to-beige" src="{{ "assets/discord-icon.svg" | relative_url }}" title="Discord" alt="Discord Icon">
-    <h1>
+    <h2>
         Discord
-    </h1>
+    </h2>
     <p>
         <a href="https://discord.com/users/294814074670284800" target="_blank" rel="noopener noreferrer">
             FoxSylv#7315
@@ -63,9 +63,9 @@ permalink: /contact/
 
 <div class="contact-data box">
     <img class="contact-icon to-beige" src="{{ "assets/email-icon.svg" | relative_url }}" title="Email" alt="Email Icon">
-    <h1>
+    <h2>
         Email
-    </h1>
+    </h2>
     <p>
         <a href="mailto:atheriault@bowdoin.edu" target="_blank" rel="noopener noreferrer">
             atheriault@bowdoin.edu
