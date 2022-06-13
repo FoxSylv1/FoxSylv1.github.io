@@ -33,13 +33,55 @@ css: index.css
 <div class="centered-text hello">
     <h3>
         Hello!
+        <br>
     </h3>
-    <br>
     <p>
         Welcome to my website!
     </p>
 </div>
+<div class="centered-text hello">
+    <p>
+        This is the corner of the internet where I put my things.
+        <br>
+        They're not the greatest things, but they're special because I made them.
+        <br>
+        Feel free to take a look around at my things, if you would like!
+    </p>
+</div>
 
+
+<div class="centered-text">
+    <div>
+        <h2>
+            Projects
+            <br>
+            <br>
+            <br>
+        </h2>
+    </div>
+</div>
+<div class="flex full-width">
+    <div class="project box">
+    </div>
+    <div class="project box">
+        <p>
+            There's nothing here yet!
+            <br>
+            Try coming back later! ^w^
+        </p>
+    </div>
+    <div class="project box">
+    </div>
+</div>
+
+<div class="centered-text">
+    <h2>
+        Videos
+        <br>
+        <br>
+        <br>
+    </h2>
+</div>
 <div class="flex full-width">
     <div class="box">
         <br>

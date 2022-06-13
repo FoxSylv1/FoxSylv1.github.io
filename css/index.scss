@@ -27,8 +27,7 @@ $video-player-width: 400px;
     }
 }
 
-.social-icons {
-    
+.social-icons { 
     height: calc(#{$social-icon-size} + 2 * #{$social-icon-padding});
 
     //Prevents small bars near the social icons
@@ -59,8 +58,15 @@ $video-player-width: 400px;
 
 
 .hello {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+
+.project {
+    width: calc(#{$used-width / 4});
+    min-width: 300px;
+    height: 200px;
 }
 
 
