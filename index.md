@@ -26,3 +26,23 @@ css: index.css
 </div>
 
 
+<div class="flex full-width">
+    <div class="box">
+        <br>
+        <p>
+            Good Videos!
+        </p>
+        <br>
+        <br>
+        <iframe class="video-player" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLP7958ucW5B94tgKYTYJOhyiKdbz1-BrF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="box">
+        <br>
+        <p>
+            Speedruns/Accomplishments!
+        </p>
+        <br>
+        <br>
+        <iframe class="video-player" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLP7958ucW5B9t-99OgP47cd9ymRq8Ut2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>

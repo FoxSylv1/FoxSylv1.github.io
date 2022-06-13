@@ -5,6 +5,7 @@
 
 $social-icon-size: 60px;
 $social-icon-padding: 10px;
+$video-player-width: 400px;
 
 
 .welcome {
@@ -40,4 +41,11 @@ $social-icon-padding: 10px;
 .social-icon {
     padding: $social-icon-padding;
     width: $social-icon-size; 
+}
+
+
+
+.video-player {
+    width: $video-player-width;
+    height: calc(#{$video-player-width} * 9 / 16);
 }
