@@ -8,14 +8,27 @@ $social-icon-padding: 10px;
 $video-player-width: 400px;
 
 
-.welcome {
+.title {
+    margin-top: 20px;
     padding-bottom: $social-icon-padding;
-    width: calc(#{$used-width} - 3 * #{$social-icon-size} - 8 * #{$social-icon-padding});
-    min-width: 400px;
+    width: $used-width;
     text-align: center;
 }
 
+@media (min-width: 650px) {
+    .title {
+        padding-left: 40px;
+        width: calc(#{$used-width} / 2);
+        text-align: left;
+
+        & .subtitle {
+            padding-left: 50px;
+        }
+    }
+}
+
 .social-icons {
+    
     height: calc(#{$social-icon-size} + 2 * #{$social-icon-padding});
 
     //Prevents small bars near the social icons
@@ -41,6 +54,13 @@ $video-player-width: 400px;
 .social-icon {
     padding: $social-icon-padding;
     width: $social-icon-size; 
+}
+
+
+
+.hello {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 

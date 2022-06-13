@@ -6,10 +6,14 @@ css: index.css
 ---
 
 <div class="flex full-width">
-    <div class="welcome">
+    <div class="title">
         <h1>
-            Welcome to my website!
+            FoxSylv
         </h1>
+        <br>
+        <p class="subtitle">
+            nya nya foxgirl uwu
+        </p>
     </div>
     
     <div class="social-icons">
@@ -25,6 +29,16 @@ css: index.css
     </div>
 </div>
 
+
+<div class="centered-text hello">
+    <h3>
+        Hello!
+    </h3>
+    <br>
+    <p>
+        Welcome to my website!
+    </p>
+</div>
 
 <div class="flex full-width">
     <div class="box">
