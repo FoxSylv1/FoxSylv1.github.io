@@ -9,6 +9,9 @@ $name-shadow-thickness: 0.03em;
     float: left;
     margin-right: 1em;
     margin-top: 3px;
+    
+    /* Required to prevent the tips of letters from being cut off */
+    overflow: visible;
 
     text-shadow:
         -$name-shadow-thickness 0 1.8px #000,
