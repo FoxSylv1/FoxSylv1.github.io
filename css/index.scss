@@ -53,6 +53,11 @@ $video-player-width: 400px;
 .social-icon {
     padding: $social-icon-padding;
     width: $social-icon-size; 
+
+    transition-duration: 0.08s;
+    &:hover {
+        transform: translateY(-6px);
+    }
 }
 
 
