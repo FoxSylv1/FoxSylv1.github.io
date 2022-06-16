@@ -5,7 +5,7 @@
 
 $social-icon-size: 60px;
 $social-icon-padding: 10px;
-$video-player-width: 400px;
+$video-player-width: unquote("min(75vw, 400px)");
 
 
 .title {
@@ -28,7 +28,7 @@ $video-player-width: 400px;
 }
 
 .social-icons { 
-    height: calc(#{$social-icon-size} + 2 * #{$social-icon-padding});
+    height: calc(#{$social-icon-size} + 3 * #{$social-icon-padding});
 
     //Prevents small bars near the social icons
     & a {
