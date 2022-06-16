@@ -6,7 +6,7 @@ css: contact.css
 permalink: /contact/
 ---
 
-<div class="full-width centered-text">
+<div class="full-width centered-text space100px">
     <h1>
         Contact Me!
     </h1>
@@ -77,3 +77,5 @@ permalink: /contact/
     </p>
 </div>
 
+
+<div class="space100px"></div>

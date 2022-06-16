@@ -62,12 +62,6 @@ $video-player-width: unquote("min(75vw, 400px)");
 
 
 
-.hello {
-    margin-top: 200px;
-    margin-bottom: 150px;
-}
-
-
 .project {
     width: calc(#{$used-width / 4});
     min-width: 300px;

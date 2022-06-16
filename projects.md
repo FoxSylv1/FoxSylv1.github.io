@@ -6,7 +6,7 @@ css: projects.css
 permalink: /projects/
 ---
 
-<div class="full-width centered-text">
+<div class="full-width centered-text space100px">
     <h1>
         Projects I've Worked On
     </h1>

@@ -99,6 +99,11 @@ p {
     text-align: center;
 }
 
+@for $gap from 1 through 50 {
+    .space#{$gap * 10}px {
+        margin-bottom: #{$gap * 10}px;
+    }
+}
 
 /* Converts black images to beige */
 .to-beige {

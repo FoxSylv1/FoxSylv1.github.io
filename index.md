@@ -5,7 +5,7 @@ keywords: [foxsylv]
 css: index.css
 ---
 
-<div class="flex full-width">
+<div class="flex full-width space200px">
     <div class="title">
         <h1>
             FoxSylv
@@ -30,7 +30,7 @@ css: index.css
 </div>
 
 
-<div class="centered-text hello">
+<div class="centered-text hello space160px">
     <h3>
         Hello!
         <br>
@@ -39,7 +39,7 @@ css: index.css
         Welcome to my website!
     </p>
 </div>
-<div class="centered-text hello">
+<div class="centered-text hello space200px">
     <p>
         This is the corner of the internet where I put my things.
         <br>
@@ -50,17 +50,14 @@ css: index.css
 </div>
 
 
-<div class="centered-text">
+<div class="centered-text space50px">
     <div>
         <h2>
             Projects
-            <br>
-            <br>
-            <br>
         </h2>
     </div>
 </div>
-<div class="flex full-width">
+<div class="flex full-width space150px">
     <div class="project box">
     </div>
     <div class="project box">
@@ -74,31 +71,24 @@ css: index.css
     </div>
 </div>
 
-<div class="centered-text">
+<div class="centered-text space50px">
     <h2>
         Videos
-        <br>
-        <br>
-        <br>
     </h2>
 </div>
-<div class="flex full-width">
+<div class="flex full-width space210px">
     <div class="box">
-        <br>
-        <p>
+        <div class="space20px"></div>
+        <p class="space40px">
             Good Videos!
         </p>
-        <br>
-        <br>
         <iframe class="video-player" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLP7958ucW5B94tgKYTYJOhyiKdbz1-BrF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="box">
-        <br>
-        <p>
+        <div class="space20px"></div>
+        <p class="space40px">
             Speedruns/Accomplishments!
         </p>
-        <br>
-        <br>
         <iframe class="video-player" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLP7958ucW5B9t-99OgP47cd9ymRq8Ut2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
