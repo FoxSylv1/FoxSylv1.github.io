@@ -12,7 +12,7 @@ permalink: /projects/
     </h1>
 </div>
 
-<div class="flex project-list">
+<div class="flex" id="project-list">
     <div class="project box">
         <p>
             There's nothing here right now...

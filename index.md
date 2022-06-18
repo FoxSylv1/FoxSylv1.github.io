@@ -6,17 +6,17 @@ css: index.css
 ---
 
 <div class="flex full-width space200px">
-    <div class="title">
+    <div id="title">
         <h1>
             FoxSylv
         </h1>
         <br>
-        <p class="subtitle">
+        <p id="subtitle">
             nya nya foxgirl uwu
         </p>
     </div>
     
-    <div class="social-icons">
+    <div id="social-icons">
         <a title="Youtube" href="https://www.youtube.com/channel/UCj7lR9rm06lCxE4kxkJeECA" target="_blank" rel="noopener noreferrer">
             <img class="social-icon to-beige" src="{{ "assets/youtube-icon.svg" | relative_url }}">
         </a>
@@ -30,7 +30,7 @@ css: index.css
 </div>
 
 
-<div class="centered-text hello space160px">
+<div class="centered-text space160px">
     <h3>
         Hello!
         <br>
@@ -39,7 +39,7 @@ css: index.css
         Welcome to my website!
     </p>
 </div>
-<div class="centered-text hello space200px">
+<div class="centered-text space200px">
     <p>
         This is the corner of the internet where I put my things.
         <br>
@@ -49,7 +49,7 @@ css: index.css
     </p>
 </div>
 
-<div class="flex full-width down-arrow-container">
+<div class="flex full-width" id="down-arrow-container">
     <div>
         <img id="down-arrow" class="to-beige" src="{{ "assets/down-arrow.svg" | relative_url }}">
         <script>
