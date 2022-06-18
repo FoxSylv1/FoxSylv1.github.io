@@ -3,6 +3,19 @@
 
 @import "_variables";
 
+header {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: $header-height;
+    z-index: 100;
+
+    background-color: $header-footer-background-color;
+}
+header nav {
+    padding-left: $header-footer-left-offset;
+}
+
 
 $name-shadow-thickness: 0.03em;
 .header-name {
@@ -10,9 +23,6 @@ $name-shadow-thickness: 0.03em;
     margin-right: 1em;
     margin-top: 3px;
     
-    /* Required to prevent the tips of letters from being cut off */
-    overflow: visible;
-
     text-shadow:
         -$name-shadow-thickness 0 1.8px #000,
         $name-shadow-thickness 0 1.8px #000,
@@ -43,24 +53,21 @@ $name-shadow-thickness: 0.03em;
     }
 }
 
+
 .header-entry {
-    & span {
-        vertical-align: middle;
-        line-height: normal;
-    }
-
-    text-align: center;
-    overflow: hidden;
-    font-size: 20px;
-
     width: 9vw;
-    height: $header-height;
-    line-height: $header-height;
+    min-width: 120px;
+    height: 45px;
     display: inline-block;
+    
+    position: relative;
+    top: 50%;
 
     border: 2px solid $xlight-blue;
     border-radius: 25px;
-    margin: 5px;
+    margin-right: 10px;
+
+    text-align: center;
 
     &:hover {
         background-color: $light-blue;
@@ -69,43 +76,14 @@ $name-shadow-thickness: 0.03em;
         background-color: $light-blue;
     }
 
-
     & a {
-        &:link {
-            text-decoration: none;
-            color: $black;
-        }
-        &:visited {
-            text-decoration: none;
-            color: $black;
-        }
-        &:hover {
-            text-decoration: underline;
-            color: $black;
-        }
-        &:active {
-            text-decoration: underline;
-            color: $black;
-        }
-        &:focus {
-            text-decoration: underline;
-            color: $black;
-        }
+        position: relative;
+        top: 20%;
     }
 }
 
-
-header {
-    position: sticky;
-    overflow: visible;
-    top: 0;
-    width: 100vw;
-    z-index: 100;
-
-    background-color: $header-footer-background-color;
-}
-
-header nav {
-    padding-left: $header-footer-left-offset;
-    border: 1px solid $dark-blue;
+@media (max-width: 700px) {
+    .header-entry {
+        display: none;
+    }
 }

@@ -64,6 +64,29 @@ h6 {
     font-family: "DejaVu Serif", serif;
     font-size: 20px;
     font-weight: lighter;
+
+    & a {
+        &:link {
+            text-decoration: none;
+            color: $black;
+        }
+        &:visited {
+            text-decoration: none;
+            color: $black;
+        }
+        &:hover {
+            text-decoration: underline;
+            color: $black;
+        }
+        &:active {
+            text-decoration: underline;
+            color: $black;
+        }
+        &:focus {
+            text-decoration: underline;
+            color: $black;
+        }
+    }
 }
 
 p {
