@@ -49,6 +49,21 @@ css: index.css
     </p>
 </div>
 
+<div class="flex full-width down-arrow-container">
+    <div>
+        <img id="down-arrow" class="to-beige" src="{{ "assets/down-arrow.svg" | relative_url }}">
+        <script>
+            function changeOpacity () {
+                var downArrow = document.getElementById("down-arrow");
+                var opacity = (70 - this.scrollY) / 70;
+                downArrow.style.opacity = opacity;
+            }
+            
+            window.addEventListener("scroll", changeOpacity, false);
+        </script>
+        <!-- Default noscript behaviour is no arrow being visible -->
+    </div>
+</div>
 
 <div class="centered-text space50px">
     <div>

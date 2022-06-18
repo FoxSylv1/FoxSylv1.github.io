@@ -62,6 +62,19 @@ $video-player-width: unquote("min(75vw, 400px)");
 
 
 
+.down-arrow-container {
+    position: fixed;
+    bottom: 50px;
+}
+
+#down-arrow {
+    width: 30px;
+    opacity: 0;
+}
+
+
+
+
 .project {
     width: calc(#{$used-width / 4});
     min-width: 300px;
