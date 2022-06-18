@@ -53,13 +53,16 @@ css: index.css
     <div>
         <img id="down-arrow" class="to-beige" src="{{ "assets/down-arrow.svg" | relative_url }}">
         <script>
-            function changeOpacity () {
+            function setOpacity(opacity) {
                 var downArrow = document.getElementById("down-arrow");
-                var opacity = (70 - this.scrollY) / 70;
                 downArrow.style.opacity = opacity;
             }
+            function changeOpacityOnScroll() {
+                setOpacity((70 - this.scrollY) / 70);
+            }
             
-            window.addEventListener("scroll", changeOpacity, false);
+            setOpacity(1);
+            window.addEventListener("scroll", changeOpacityOnScroll, false);
         </script>
         <!-- Default noscript behaviour is no arrow being visible -->
     </div>
