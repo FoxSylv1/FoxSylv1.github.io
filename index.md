@@ -18,13 +18,13 @@ css: index.css
     
     <div id="social-icons">
         <a title="Youtube" href="https://www.youtube.com/channel/UCj7lR9rm06lCxE4kxkJeECA" target="_blank" rel="noopener noreferrer">
-            <img class="social-icon to-beige" src="{{ "assets/youtube-icon.svg" | relative_url }}">
+            <img class="social-icon to-beige" src="{{ "assets/site-icons/youtube-icon.svg" | relative_url }}">
         </a>
         <a title="Speedrun.com" href="https://www.speedrun.com/user/FoxSylv" target="_blank" rel="noopener noreferrer">
-             <img class="social-icon to-beige" src="{{ "assets/speedrun-icon.svg" | relative_url }}">
+             <img class="social-icon to-beige" src="{{ "assets/site-icons/speedrun-icon.svg" | relative_url }}">
         </a>
         <a title="Github" href="https://github.com/FoxSylv1" target="_blank" rel="noopener noreferrer">
-            <img class="social-icon to-beige" src="{{ "assets/github-icon.svg" | relative_url }}">
+            <img class="social-icon to-beige" src="{{ "assets/site-icons/github-icon.svg" | relative_url }}">
         </a>
     </div>
 </div>
