@@ -57,6 +57,29 @@ h3 {
     color: $orange;
     font-family: "DejaVu Serif", serif;
     font-size: 35px;
+
+    & a {
+        &:link {
+            text-decoration: none;
+            color: $orange;
+        }
+        &:visited {
+            text-decoration: none;
+            color: $orange;
+        }
+        &:hover {
+            text-decoration: underline;
+            color: $dark-orange;
+        }
+        &:active {
+            text-decoration: underline;
+            color: $dark-orange;
+        }
+        &:focus {
+            text-decoration: underline;
+            color: $dark-orange;
+        }
+    }
 }
 
 h6 {
@@ -97,7 +120,7 @@ p {
 
 .box {
     margin: 10px auto;
-    border: 3px $dark-orange;
+    border: 3px $xdark-orange;
     border-style: solid;
     border-radius: 10px;
     padding: 5px;

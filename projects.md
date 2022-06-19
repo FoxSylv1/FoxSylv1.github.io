@@ -13,11 +13,21 @@ permalink: /projects/
 </div>
 
 <div class="flex" id="project-list">
-    <div class="project box">
-        <p>
-            There's nothing here right now...
-            <br>
-            Try coming back later! ^w^
-        </p>
-    </div>
+    {% for project_data in site.data.project_data_list %}
+        <div class="project box">
+            <a href="{{ project_data.link | relative_url }}">
+                <div class="project-title centered-text">
+                    <h3>
+                        {{ project_data.name }}
+                    </h3>
+                </div>
+                <img class="project-image" src="{{ project_data.image | relative_url }}" alt="{{ project_data.name }} Image">
+                <div class="project-description centered-text">
+                    <p>
+                        {{ project_data.description }}
+                    </p>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
 </div>
