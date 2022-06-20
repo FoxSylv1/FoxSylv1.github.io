@@ -75,7 +75,7 @@ $video-player-width: unquote("min(75vw, 400px)");
 
 /* To prevent the arrow from overwriting any important data */
 main div {
-    background-color: $black;
+    background-color: inherit;
 }
 
 

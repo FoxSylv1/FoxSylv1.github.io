@@ -110,14 +110,14 @@ css: [index.css, project-display.css]
     </h2>
 </div>
 <div class="flex full-width space210px">
-    <div class="box">
+    <div class="box centered-text">
         <div class="space20px"></div>
         <p class="space40px">
             Good Videos!
         </p>
         <iframe class="video-player" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLP7958ucW5B94tgKYTYJOhyiKdbz1-BrF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <div class="box">
+    <div class="box centered-text">
         <div class="space20px"></div>
         <p class="space40px">
             Speedruns/Accomplishments!

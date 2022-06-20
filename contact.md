@@ -12,7 +12,7 @@ permalink: /contact/
     </h1>
 </div>
 
-<div class="space100px">
+<div class="centered-text space100px">
     {% for contact_data in site.data.contact_data_list %}
         <div class="contact-data box">
             <img class="contact-icon to-beige" src="{{ contact_data.image | relative_url }}" title="{{ contact_data.site }}" alt="{{ contact_data.site }} Icon">
