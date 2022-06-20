@@ -110,18 +110,14 @@ css: [index.css, project-display.css]
     </h2>
 </div>
 <div class="flex full-width space210px">
-    <div class="box centered-text">
-        <div class="space20px"></div>
-        <p class="space40px">
-            Good Videos!
-        </p>
-        <iframe class="video-player" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLP7958ucW5B94tgKYTYJOhyiKdbz1-BrF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div class="box centered-text">
-        <div class="space20px"></div>
-        <p class="space40px">
-            Speedruns/Accomplishments!
-        </p>
-        <iframe class="video-player" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLP7958ucW5B9t-99OgP47cd9ymRq8Ut2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    {% for youtube_data in site.data.youtube_data_list %}
+        <div class="box centered-text">
+            <div class="space20px"></div>
+            <h3>
+                {{ youtube_data.title }}
+            </h3>
+            <div class="space30px"></div>
+            <iframe class="video-player" src="{{ youtube_data.link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    {% endfor %}
 </div>
