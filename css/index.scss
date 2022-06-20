@@ -79,14 +79,24 @@ main div {
 }
 
 
+#project-more {
+    align-items: center;
 
-
-.project {
-    width: calc(#{$used-width / 4});
-    min-width: 300px;
-    height: 200px;
+    & a {
+        &:hover {
+            color: $orange;
+            text-decoration: underline;
+        }
+        &:active {
+            color: $orange;
+            text-decoration: underline;
+        }
+        &:focus {
+            color: $orange;
+            text-decoration: underline;
+        }
+    }
 }
-
 
 
 .video-player {

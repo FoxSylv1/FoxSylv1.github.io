@@ -2,7 +2,7 @@
 title: Welcome to my Website!
 description: FoxSylv's Website
 keywords: [foxsylv]
-css: index.css
+css: [index.css, project-display.css]
 ---
 
 <div class="flex full-width space200px">
@@ -76,16 +76,31 @@ css: index.css
     </div>
 </div>
 <div class="flex full-width space150px">
-    <div class="project box">
-    </div>
-    <div class="project box">
-        <p>
-            There's nothing here yet!
-            <br>
-            Try coming back later! ^w^
-        </p>
-    </div>
-    <div class="project box">
+    {% for project_data in site.data.project_data_list %}
+        {% if project_data.isImportant == 'true' %}
+            <div class="project box">
+                <a href="{{ project_data.link | relative_url }}">
+                    <div class="project-title centered-text">
+                        <h3>
+                            {{ project_data.name }}
+                        </h3>
+                    </div>
+                    <img class="project-image" src="{{ project_data.image | relative_url }}" alt="{{ project_data.name }} Image">
+                    <div class="project-description centered-text">
+                        <p>
+                            {{ project_data.description }}
+                        </p>
+                    </div>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+    <div class="flex project box" id="project-more">
+        <a href="{{ "/projects/" | relative_url }}">
+            <h2>
+                More!
+            </h2>
+        </a>
     </div>
 </div>
 

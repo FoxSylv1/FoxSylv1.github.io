@@ -3,21 +3,14 @@
 
 @import "_variables";
 
-
-#project-list {
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-
 .project {
     width: calc(#{$used-width} / 3 - 60px);
     min-width: 150px;
     min-height: 300px;
-    
+
     position: relative;
     overflow: hidden;
-
+    
     margin: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -37,7 +30,7 @@
         }
         &:focus {
             text-decoration: none;
-        }   
+        }
     }
 }
 
@@ -48,15 +41,13 @@
 }
 
 .project-image {
-    max-width: 100%;
-    height: auto;
-
-    margin-bottom: 10px;
+   max-width: 100%;
+   height: auto;
+   margin-bottom: 10px;
 }
 
 .project-description {
     margin-bottom: 20px;
-
     width: 100%;
     min-width: 150px;
 
@@ -80,5 +71,5 @@
     &:focus {
         text-decoration: none;
         color: $text-color;
-    }  
-}
+    }
+}  

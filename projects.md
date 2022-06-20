@@ -2,7 +2,7 @@
 title: Projects I've Worked On!
 description: A directory of projects that I've worked on.
 keywords: [foxsylv, projects]
-css: projects.css
+css: project-display.css
 permalink: /projects/
 ---
 
@@ -12,7 +12,7 @@ permalink: /projects/
     </h1>
 </div>
 
-<div class="flex" id="project-list">
+<div class="flex space30px">
     {% for project_data in site.data.project_data_list %}
         <div class="project box">
             <a href="{{ project_data.link | relative_url }}">

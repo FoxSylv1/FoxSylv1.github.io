@@ -17,8 +17,10 @@
         <link rel="stylesheet" href="{{ "css/main.css" | relative_url }}">
         <link rel="stylesheet" href="{{ "css/footer.css" | relative_url }}">
         {% if page.css %}
-            {% capture css %}css/{{ page.css }}{% endcapture %}
-            <link rel="stylesheet" href="{{ css | relative_url }}">
+            {% for sheet in page.css %}
+                {% capture css %}css/{{ sheet }}{% endcapture %}
+                <link rel="stylesheet" href="{{ css | relative_url }}">
+            {% endfor %}
         {% endif %}
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
