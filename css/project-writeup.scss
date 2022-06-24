@@ -1,0 +1,16 @@
+---
+---
+
+$margin-distance: unquote("max(5vw, 20px)");
+$padding-distance: unquote("max(5vw, 10px)");
+.project-data {
+   margin-left: $margin-distance;
+   margin-right: $margin-distance;
+   margin-top: 30px;
+   margin-bottom: 100px;
+
+   padding-left: $padding-distance;
+   padding-right: $padding-distance;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
