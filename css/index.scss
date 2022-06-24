@@ -99,6 +99,9 @@ main div {
 }
 
 
+.video-container {
+    margin: 10px;
+}
 .video-player {
     width: $video-player-width;
     height: calc(#{$video-player-width} * 9 / 16);

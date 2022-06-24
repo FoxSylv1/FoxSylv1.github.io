@@ -111,7 +111,7 @@ css: [index.css, project-display.css]
 </div>
 <div class="flex full-width space210px">
     {% for youtube_data in site.data.youtube_data_list %}
-        <div class="box centered-text">
+        <div class="video-container box centered-text">
             <div class="space20px"></div>
             <h3>
                 {{ youtube_data.title }}
