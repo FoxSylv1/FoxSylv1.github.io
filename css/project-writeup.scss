@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "../_sass/_variables";
+
 $margin-distance: unquote("max(5vw, 20px)");
 $padding-distance: unquote("max(5vw, 10px)");
 .project-data {
@@ -13,4 +15,13 @@ $padding-distance: unquote("max(5vw, 10px)");
    padding-right: $padding-distance;
    padding-top: 30px;
    padding-bottom: 30px;
+}
+
+.project-link {
+    color: $beige;
+    text-decoration: none;
+
+    &:hover, &:active, &:focus {
+       text-decoration: underline;
+    }
 }
